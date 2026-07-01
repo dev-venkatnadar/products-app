@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import prisma from "./config/prisma.js";
 
 const app = express();
 
