@@ -1,0 +1,36 @@
+<mat-toolbar color="primary">
+
+  <span>Product Management</span>
+
+  <span class="spacer"></span>
+
+  <a
+    mat-button
+    routerLink="/users"
+    routerLinkActive="active">
+    Users
+  </a>
+
+  <a
+    mat-button
+    routerLink="/categories"
+    routerLinkActive="active">
+    Categories
+  </a>
+
+  <a
+    mat-button
+    routerLink="/products"
+    routerLinkActive="active">
+    Products
+  </a>
+
+  <button mat-button>
+    Logout
+  </button>
+
+</mat-toolbar>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
